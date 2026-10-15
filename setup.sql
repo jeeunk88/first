@@ -370,4 +370,4 @@ create policy slides_teacher_delete on storage.objects for delete to authenticat
 -- ------------------------------------------------------------
 -- 교사 이메일: teacher@example.com 을 자기 이메일(소문자)로 바꾸세요. 여러 명이면 줄을 더하면 됩니다.
 -- ------------------------------------------------------------
-insert into teachers (email) values ('teacher@example.com') on conflict do nothing;
+insert into teachers (email) values ('nama.kang@gmail.com') on conflict do nothing;
